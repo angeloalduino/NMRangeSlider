@@ -208,11 +208,11 @@ NSUInteger DeviceSystemMajorVersion() {
         
         if(!isnan(lowerValue))
         {
-            [self setLowerValue:lowerValue];
+            [self setLowerValue:lowerValue validate:NO];
         }
         if(!isnan(upperValue))
         {
-            [self setUpperValue:upperValue];
+            [self setUpperValue:upperValue validate:NO];
         }
         
     };
